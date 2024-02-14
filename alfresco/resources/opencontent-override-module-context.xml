@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:task="http://www.springframework.org/schema/task"	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util" 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+
+    <!-- Tag Tracking Folder behavior -->
+    <!--<bean id="hpiTagTrackingFolderBehavior" class="com.tsgrp.alfresco.behaviour.TagTrackingFolderBehaviour" parent="tsgBehaviorBase" init-method="init">-->
+    <!--<property name="behaviourFilter" ref="policyBehaviourFilter"/>-->
+    <!--</bean>-->
+
+    <!-- This bean's map is left blank because values here will be client specific. To set default tack tracking required tag defaults, override this bean in the project-bean-config.xml.
+    The key is the OC Name of the folder and the value is a list of the default values separated by "|". -->
+    <!--<bean id="hpiTagTrackingDefaults" class="org.springframework.beans.factory.config.MapFactoryBean">-->
+    <!--<property name="sourceMap">-->
+    <!--<map/>-->
+    <!--</property>-->
+    <!--</bean>-->
+
+
+
+</beans>
