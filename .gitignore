@@ -1,2 +1,14 @@
 .DS_Store
 alfresco/license/TextLicense.l4j
+/resources/
+/alfresco/license/alfresco.lic
+/alfresco-enterprise-viewer-package-*.zip
+
+/alfresco/resources/oa-alfresco.amp
+/alfresco/resources/oat.war
+/alfresco/resources/OpenAnnotate.war
+/alfresco/resources/pdfium.tar.gz
+/alfresco/resources/tsgrp-opencontent-*-for-acs*.amp
+
+/share/resources/oa-share-external-launcher.amp
+/share/resources/oa-share-webpreview.amp
