@@ -46,13 +46,13 @@ If you want to use also an ACS license, copy `alfresco.lic` file to `alfresco/li
 
 Copy required resources to `share/resources` folder for Alfresco Share configuration:
 
-```
+```bash
 $ cp resources/Share\ Artifacts/*.amp share/resources
 ```
 
 ## Using
 
-```
+```bash
 docker-compose up --build --force-recreate
 ```
 

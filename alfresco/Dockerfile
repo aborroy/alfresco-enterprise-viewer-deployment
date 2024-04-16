@@ -18,7 +18,7 @@ COPY ${RESOURCE_PATH}/opencontent-override-config.xml \
 COPY ${RESOURCE_PATH}/opencontent-override-module-context.xml \
         ${TOMCAT_DIR}/shared/classes/alfresco/module/com.tsgrp.opencontent/
 
-COPY ${RESOURCE_PATH}/*.amp ${TOMCAT_DIR}/amps
+COPY ${RESOURCE_PATH}/*.amp ${TOMCAT_DIR}/amps/
 RUN java -jar ${TOMCAT_DIR}/alfresco-mmt/alfresco-mmt*.jar install \
               ${TOMCAT_DIR}/amps ${TOMCAT_DIR}/webapps/alfresco -directory -nobackup -force
 
