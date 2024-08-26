@@ -1,0 +1,20 @@
+{
+    "transformers": [
+        {
+            "transformerName": "imageToPdfViaTiff",
+            "transformerPipeline": [
+                {
+                    "transformerName": "imagemagick",
+                    "targetMediaType": "image/tiff"
+                },
+                {
+                    "transformerName": "imageToPdf"
+                }
+            ],
+            "supportedSourceAndTargetList": [],
+            "transformOptions": [
+                "imageToPdfOptions"
+            ]
+        }
+    ]
+}
