@@ -41,7 +41,7 @@ services:
     volumes:
       - ./alfresco/resources/openannotate-override-placeholders.properties:/usr/local/tomcat/shared/classes/openannotate-override-placeholders.properties
       - ./alfresco/resources/opencontent-override-placeholders.properties:/usr/local/tomcat/shared/classes/alfresco/module/com.tsgrp.opencontent/opencontent-override-placeholders.properties
-      - ./alfresco/resources/customTranformer.json:/usr/local/tomcat/shared/classes/alfresco/extension/transform/pipelines/customTranformer.json
+      - ./alfresco/resources/customTransformer.json:/usr/local/tomcat/shared/classes/alfresco/extension/transform/pipelines/customTransformer.json
       - ./alfresco/resources/default.policy:/usr/lib/jvm/jre/lib/security/default.policy
       - ./alfresco/resources/server.xml:/usr/local/tomcat/conf/server.xml
       - ./alfresco/license/TextLicense.l4j:/usr/local/tomcat/shared/classes/alfresco/module/com.tsgrp.opencontent/license/TextLicense.l4j
